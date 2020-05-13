@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+                    /* lg screen*/
+@media (max-width :1200px)
+{
+    
+}
+
+                 /* md screen*/
+@media (max-width :991px)
+{
+    .navbar{
+        background-color: #fff;
+        position: fixed;
+    }
+    .navbar .container .navbar-brand{
+        color: #F39C12;
+    }
+    .navbar-light .navbar-nav .active > .nav-link,
+     .navbar-light .navbar-nav .nav-link.active,
+      .navbar-light .navbar-nav .nav-link.show,
+       .navbar-light .navbar-nav .show > .nav-link{
+
+        color: #000;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #000;
+        padding: 0.5rem 12px;
+
+    }
+    .header .overlay .container .banner .table-cell .handline{
+        font-size: 44px;
+    }
+    #about .about-one .about-box-text .sec-title .sec-title-headline .top-handline-title{
+        margin-top: 30px;
+    }
+    #about .about-two .about-box-img{
+        margin-top: 30px;
+
+    }
+    
+}
+
+
+                        /* sm screen*/
+@media (max-width :768px){
+    .header .overlay .container .banner .table-cell .handline{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width :576px){
+
+     .header .overlay .container .banner .table-cell .handline{
+        font-size: 27px;
+    }
+    .header .overlay .container .banner .table-cell .bio-website{
+        font-weight: 400;
+
+    }
+   /*ssm*/
+}
+@media (max-width :480px){
+    .header .overlay .container .banner .table-cell .handline{
+        font-size: 15px;
+    }
+    .header .overlay .container .banner .table-cell{
+        display: none;
+    }
+    /*xsm*/
+ }
